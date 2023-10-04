@@ -1,0 +1,91 @@
+.pimg1{
+background-image: url(pimg1.jpg);
+min-height:100%;
+}
+.pimg1,.pimg2,.pimg3{
+    position:relative;
+    opacity: 0.70;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+div{
+    display: block;
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    font: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color:#666
+    
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+section{
+    display: block;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.pimg2{
+    background-image: url(pimg2.jpg);
+    min-height: 400px;
+}
+.ptext .border.trans {
+    background-color: transparent;
+}
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+section{
+    display: block;
+}
+.pimg3{
+    background-image: url(pimg3.jpg);
+    min-height:400px
+}
